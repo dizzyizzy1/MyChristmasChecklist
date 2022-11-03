@@ -20,5 +20,14 @@ const goBack = () => {
 
 const downloadPNG = () => {
   let containerToSave = document.querySelector("#checklist");
-}
+  
+  html2canvas(containerToSave, {}).then(
+    (canvas) => {
+      let a = document.createElement("a");
+      a.download = "checklist.png";
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+    }
+  )
+};
 

@@ -15,11 +15,19 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- import html2canvas library -->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" defer></script>
 
     <script src="script.js" defer></script>
+    
   </head>
   <body>
     <!-- this is the start of content -->
+    
+    <button class="download-button" onclick="downloadPNG()">
+      Download a PNG of your Checklist
+    </button>
 
     <i class="bi bi-arrow-left-square left" onclick="goBack()"></i>
     <i class="bi bi-arrow-right-square right" onclick="goForward()"></i>
