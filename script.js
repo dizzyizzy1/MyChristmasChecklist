@@ -18,3 +18,7 @@ const goBack = () => {
   }
 };
 
+const downloadPNG = () => {
+  let containerToSave = document.querySelector("#checklist");
+}
+
