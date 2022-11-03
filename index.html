@@ -15,35 +15,43 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
-    
+
     <!-- import html2canvas library -->
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" defer></script>
+    <script
+      src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"
+      defer
+    ></script>
 
     <script src="script.js" defer></script>
-    
   </head>
   <body>
     <!-- this is the start of content -->
-    
-    <button class="download-button" onclick="downloadPNG()">
-      Download a PNG of your Checklist
-    </button>
 
     <i class="bi bi-arrow-left-square left" onclick="goBack()"></i>
     <i class="bi bi-arrow-right-square right" onclick="goForward()"></i>
-
+    
     <div class="content-container">
       <!-- three placeholder sections of content -->
       <section class="full-screen" id="slide-1">
+      <button onclick="openChecklist()">
+        Open Checklist
+      </button>
+        
         <h1>Preparing for Halloween</h1>
         <p>First piece of content.</p>
       </section>
 
       <section class="full-screen hidden" id="slide-2">
+        <button onclick="openChecklist()">
+          Open Checklist
+        </button>
         <p>Second piece of content.</p>
       </section>
 
       <section class="full-screen hidden" id="slide-3">
+        <button onclick="openChecklist()">
+          Open Checklist
+        </button>
         <p>Third piece of content.</p>
       </section>
     </div>
@@ -63,6 +71,10 @@
         <input type="checkbox" name="check3" />
         <label for="check3">I'm ready for Halloween.</label>
       </div>
+
+      <button class="download-button" onclick="downloadPNG()">
+        Download a PNG of your Checklist
+      </button>
     </section>
   </body>
 </html>

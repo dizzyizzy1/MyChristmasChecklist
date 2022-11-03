@@ -90,7 +90,18 @@ h1 {
 #checklist {
   position: absolute;
   top: 60vh;
+  background: pink;
 }
 
-.download-button
+.download-button {
+  display: block;
+}
+
+.noheight {
+  height: 0;
+}
+
+.fullheight {
+  height: 60vh;
+}
 

@@ -31,3 +31,9 @@ const downloadPNG = () => {
   )
 };
 
+const openChecklist = () => {
+  let checklist = document.querySelector("#checklist");
+  checklist.classList.remove("noheight");
+  checklist.classList.add("fullheight");
+}
+
