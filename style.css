@@ -64,7 +64,8 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 40px;
+  padding: 25px;
+  padding-top: 0;
 }
 
 .full-screen p {
@@ -91,17 +92,38 @@ h1 {
   position: absolute;
   top: 60vh;
   background: pink;
+  width: 100%;
+  padding: 25px;
+  transition: all 2s;
 }
 
-.download-button {
+#checklist div {
+  margin-bottom: 20px;
+}
+
+button {
   display: block;
+  margin-top: 20px;
+  background: blue;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
 }
 
-.noheight {
+button:hover {
+  opacity: 0.8;
+}
+
+#checklist.noheight {
   height: 0;
+  padding: 0px;
+  overflow: hidden;
 }
 
-.fullheight {
+#checklist.fullheight {
   height: 60vh;
+  visibility: visible;
+  overflow: hidden;
 }
 
