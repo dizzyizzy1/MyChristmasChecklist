@@ -3,7 +3,7 @@
 let counter = 1;
 
 const goForward = () => {
-  if () {
+  if (counter < 3) {
     counter++;
     let idToMatch = "#slide-" + counter;
     document.querySelector(idToMatch).classList.remove("hidden");
@@ -11,5 +11,10 @@ const goForward = () => {
 };
 
 const goBack = () => {
+  if (counter > 1) {
+    let idToMatch = "#slide-" + counter;
+    document.querySelector(idToMatch).classList.add("hidden");
+    counter--;
+  }
 };
 
