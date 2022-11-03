@@ -117,3 +117,7 @@ https://alvarotrigo.com/blog/css-checkbox-styles/ */
   transform: rotateZ(180deg);
   background: #FF4040;
 }
+
+#checklist {
+  position: absolute;
+}
