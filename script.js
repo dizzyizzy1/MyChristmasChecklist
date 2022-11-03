@@ -1,21 +1,15 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-console.log("Hello, world!");
+/* Here are some functions to move the content forward and back */
 
 let counter = 1;
 
 const goForward = () => {
-  if (counter < 3) {
+  if () {
     counter++;
-    let idToSelect = "#slide-" + counter;
-    document.querySelector(idToSelect).classList.remove("hidden");
+    let idToMatch = "#slide-" + counter;
+    document.querySelector(idToMatch).classList.remove("hidden");
   }
 };
 
 const goBack = () => {
-  let idToSelect = "slide-" + counter;
-  document.querySelector(idToSelect).classList.add("hidden");
-  counter--;
 };
 
