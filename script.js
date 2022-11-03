@@ -14,10 +14,8 @@ const goForward = () => {
 };
 
 const goBack = () => {
-  if (counter > 1) {
-    let idToSelect = "#slide-" + counter;
-    document.querySelector(idToSelect).classList.add("hidden");
-    counter--;
-  }
+  let idToSelect = "slide-" + counter;
+  document.querySelector(idToSelect).classList.add("hidden");
+  counter--;
 };
 
