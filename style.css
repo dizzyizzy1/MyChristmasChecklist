@@ -60,7 +60,7 @@ h1 {
 .full-screen {
   border: 1px solid grey;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -120,4 +120,5 @@ https://alvarotrigo.com/blog/css-checkbox-styles/ */
 
 #checklist {
   position: absolute;
+  top: 60vh;
 }
