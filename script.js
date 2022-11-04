@@ -30,3 +30,10 @@ const downloadChecklist = () => {
     } 
   );
 };
+
+const toggleChecklist = () => {
+  let myChecklist = document.querySelector("#checklist");
+  myChecklist.classList.toggle("hidden");
+  
+  let
+};

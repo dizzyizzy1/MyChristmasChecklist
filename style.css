@@ -89,7 +89,14 @@ h1 {
   background: #E9B44C;
 }
 
+/* button styles */
 button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  background: #E9B44C;
+  margin: 5px;
 }
 
 button:hover {
@@ -98,6 +105,9 @@ button:hover {
 
 .checklist-container {
   position: relative;
+}
+
+#checklist {
   padding: 25px;
   background: pink;
 }
