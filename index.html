@@ -16,7 +16,9 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- import html2canvas library -->
+    <!-- import html2cavnas library -->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" defer></script>
+
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -41,13 +43,23 @@
       </section>
     </div>
     
+    <div>
+      <button class="downloadButton">
+        Download my checklist as an image :)
+      </button>
+    </div>
+    
     <div class="checklist-container">
       <section id="checklist">
-          <input type="checkbox" name="input1">
-          <label for="input1">Buy a pre-made costume from the store.</label>
+          <div>
+            <input type="checkbox" name="input1">
+            <label for="input1">Buy a pre-made costume from the store.</label>
+          </div>
         
-          <input type="checkbox" name="input2">
-          <label for="input2">Buy supplies for a custom costume.</label>
+          <div>
+            <input type="checkbox" name="input2">
+            <label for="input2">Buy supplies for a custom costume.</label>
+          </div>  
       </section>
     </div>
     

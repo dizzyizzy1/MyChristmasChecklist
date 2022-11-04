@@ -90,13 +90,6 @@ h1 {
 }
 
 button {
-  display: block;
-  margin-top: 20px;
-  background: blue;
-  border: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
 }
 
 button:hover {
