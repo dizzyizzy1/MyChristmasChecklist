@@ -35,5 +35,6 @@ const toggleChecklist = () => {
   let myChecklist = document.querySelector("#checklist");
   myChecklist.classList.toggle("hidden");
   
-  let
+  let toggleButton = document.querySelector("#toggle-checklist");
+  toggleButton.innerHTML = "Close Checklist";
 };

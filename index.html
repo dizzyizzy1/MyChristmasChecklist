@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- import html2cavnas library -->
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" defer></script>
+    <script
+      src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"
+      defer
+    ></script>
 
     <script src="script.js" defer></script>
   </head>
@@ -31,7 +34,7 @@
 
     <i class="bi bi-arrow-left-square left" onclick="goBack()"></i>
     <i class="bi bi-arrow-right-square right" onclick="goForward()"></i>
-    
+
     <div class="content-container">
       <!-- three placeholder sections of content -->
       <section class="full-screen" id="slide-1">
@@ -47,28 +50,26 @@
         <p>Where to Trick-or-Treat in Miami</p>
       </section>
     </div>
-    
+
     <div>
       <button class="downloadButton" onclick="downloadChecklist()">
         Download my checklist as an image :)
       </button>
     </div>
-    
-    <div class="checklist-container">
-      <section id="checklist">
-        <h3>My Halloween Checklist</h3>
-          <p>I prefer to...</p>
-          <div>
-            <input type="checkbox" name="input1">
-            <label for="input1">Buy a pre-made costume from the store.</label>
-          </div>
-        
-          <div>
-            <input type="checkbox" name="input2">
-            <label for="input2">Buy supplies for a custom costume.</label>
-          </div>  
-      </section>
-    </div>
+
+    <section id="checklist">
+      <h3>My Halloween Checklist</h3>
+      <p>I prefer to...</p>
+      <div>
+        <input type="checkbox" name="input1" />
+        <label for="input1">Buy a pre-made costume from the store.</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="input2" />
+        <label for="input2">Buy supplies for a custom costume.</label>
+      </div>
+    </section>
     
   </body>
 </html>

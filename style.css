@@ -103,11 +103,18 @@ button:hover {
   opacity: 0.8;
 }
 
-.checklist-container {
-  position: relative;
-}
-
 #checklist {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
   padding: 25px;
   background: pink;
+}
+
+.hidden-checklist {
+  width: 0px;
+  overflow: hidden;
+  padding: 0;
 }
