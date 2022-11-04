@@ -25,6 +25,7 @@ video {
 
 .content-container {
   position: relative;
+  height: 80vh;
 }
 
 i {
@@ -102,3 +103,8 @@ button:hover {
   opacity: 0.8;
 }
 
+.checklist-container {
+  position: relative;
+  padding: 25px;
+  background: pink;
+}
