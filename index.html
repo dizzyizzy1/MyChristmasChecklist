@@ -17,11 +17,6 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- import html2canvas library -->
-    <script
-      src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"
-      defer
-    ></script>
-
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -33,51 +28,25 @@
     <div class="content-container">
       <!-- three placeholder sections of content -->
       <section class="full-screen" id="slide-1">
-      <button onclick="openChecklist()">
-        Open Checklist
-      </button>
-        
         <h1>Preparing for Halloween</h1>
-        <p>First piece of content.</p>
+        <p>Costume Construction Tips</p>
       </section>
 
       <section class="full-screen hidden" id="slide-2">
-        <button onclick="openChecklist()">
-          Open Checklist
-        </button>
-        <p>Second piece of content.</p>
+        <p>The Best Candy to Buy</p>
       </section>
 
       <section class="full-screen hidden" id="slide-3">
-        <button onclick="openChecklist()">
-          Open Checklist
-        </button>
-        <p>Third piece of content.</p>
+        <p>Where to Trick-or-Treat in Miami</p>
       </section>
     </div>
-
-    <section id="checklist" class="noheight">
-      <h3>
-        Your Halloween Checklist
-      </h3>
-      <div>
-        <input type="checkbox" name="check1" />
-        <label for="check1">I bought candy.</label>
-      </div>
-
-      <div>
-        <input type="checkbox" name="check2" />
-        <label for="check2">I have my costume.</label>
-      </div>
-
-      <div>
-        <input type="checkbox" name="check3" />
-        <label for="check3">I'm ready for Halloween.</label>
-      </div>
-
-      <button class="download-button" onclick="downloadPNG()">
-        Download a PNG of your Checklist
-      </button>
-    </section>
+    
+    <div class="checklist-container">
+      <section id="checklist">
+          <input type="checkbox" name="input1">
+          
+      </section>
+    </div>
+    
   </body>
 </html>

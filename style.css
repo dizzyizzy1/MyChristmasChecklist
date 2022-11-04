@@ -60,7 +60,7 @@ h1 {
 .full-screen {
   border: 1px solid grey;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -88,19 +88,6 @@ h1 {
   background: #E9B44C;
 }
 
-#checklist {
-  position: absolute;
-  top: 60vh;
-  background: pink;
-  width: 100%;
-  padding: 25px;
-  transition: all 2s;
-}
-
-#checklist div {
-  margin-bottom: 20px;
-}
-
 button {
   display: block;
   margin-top: 20px;
@@ -113,17 +100,5 @@ button {
 
 button:hover {
   opacity: 0.8;
-}
-
-#checklist.noheight {
-  height: 0;
-  padding: 0px;
-  overflow: hidden;
-}
-
-#checklist.fullheight {
-  height: 60vh;
-  visibility: visible;
-  overflow: hidden;
 }
 
