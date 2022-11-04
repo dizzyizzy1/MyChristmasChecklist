@@ -31,6 +31,12 @@
         Open Checklist
       </button>
     </div>
+    
+    <div>
+      <button class="downloadButton" onclick="downloadChecklist()">
+        Download my checklist as an image :)
+      </button>
+    </div>
 
     <i class="bi bi-arrow-left-square left" onclick="goBack()"></i>
     <i class="bi bi-arrow-right-square right" onclick="goForward()"></i>
@@ -51,13 +57,7 @@
       </section>
     </div>
 
-    <div>
-      <button class="downloadButton" onclick="downloadChecklist()">
-        Download my checklist as an image :)
-      </button>
-    </div>
-
-    <section id="checklist">
+    <section id="checklist" class="hidden">
       <h3>My Halloween Checklist</h3>
       <p>I prefer to...</p>
       <div>

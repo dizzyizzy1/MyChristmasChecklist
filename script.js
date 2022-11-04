@@ -36,5 +36,11 @@ const toggleChecklist = () => {
   myChecklist.classList.toggle("hidden");
   
   let toggleButton = document.querySelector("#toggle-checklist");
-  toggleButton.innerHTML = "Close Checklist";
+  
+  if (myChecklist.classList.contains("hidden")) {
+    toggleButton.innerHTML = "Open Checklist";
+  } else {
+    toggleButton.innerHTML = "Close Checklist";
+  }
+  
 };
