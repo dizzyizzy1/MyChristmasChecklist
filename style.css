@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
   font-family: sans-serif;
+  color: #ffffff
 }
 
 /* images and videos max out at full width */
@@ -30,7 +31,7 @@ video {
 
 i {
   font-size: 28px;
-  color: orange;
+  color: #8cbc76;
   display: inline-block;
   margin-top: 15px;
   cursor: pointer;
@@ -38,7 +39,7 @@ i {
 
 i:hover {
   /* add your own hover effect */
-  color: red;
+  color: #8cbc76;
   opacity: 0.5;
   transition: all 0.5s;
 }
@@ -78,7 +79,7 @@ h1 {
 }
 
 #slide-1 {
-  background: #84B59F;
+  background: #0b8e2e;
 }
 
 #slide-2 {
@@ -110,7 +111,7 @@ button:hover {
   bottom: 0;
   width: 200px;
   padding: 25px;
-  background: pink;
+  background: #444ea2;
 }
 
 .hidden-checklist {
